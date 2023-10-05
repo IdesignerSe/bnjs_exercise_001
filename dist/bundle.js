@@ -1975,6 +1975,6 @@ var githubAPI_default = fetchUser;
 
 // src/index.ts
 (async () => {
-  const userData = await githubAPI_default("Bj\xF6rnDenV\xE4nnen");
+  const userData = await githubAPI_default("IdesignerSe");
   document.querySelector("h1").innerHTML = JSON.stringify(userData);
 })();
